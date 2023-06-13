@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="sytlelenght.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Length Converter</h2>
+        <div class="converter">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <div class="button-section">
+                <h3>Centimeters (cm)</h3>
+                <button onclick="convert('cm', 'm')">Cm to M</button>
+                <button onclick="convert('cm', 'km')">Cm to Km</button>
+                <button onclick="convert('cm', 'in')">Cm to Inch</button>
+                <button onclick="convert('cm', 'ft')">Cm to Feet</button>
+                <button onclick="convert('cm', 'yd')">Cm to Yard</button>
+                <button onclick="convert('cm', 'mi')">Cm to Mile</button>
+            </div>
+            <div class="button-section">
+                <h3>Meters (m)</h3>
+                <button onclick="convert('m', 'cm')">M to Cm</button>
+                <button onclick="convert('m', 'km')">M to Km</button>
+                <button onclick="convert('m', 'in')">M to Inch</button>
+                <button onclick="convert('m', 'ft')">M to Feet</button>
+                <button onclick="convert('m', 'yd')">M to Yard</button>
+                <button onclick="convert('m', 'mi')">M to Mile</button>
+            </div>
+            <div class="button-section">
+                <h3>Kilometers (km)</h3>
+                <button onclick="convert('km', 'cm')">Km to Cm</button>
+                <button onclick="convert('km', 'm')">Km to M</button>
+                <button onclick="convert('km', 'in')">Km to Inch</button>
+                <button onclick="convert('km', 'ft')">Km to Feet</button>
+                <button onclick="convert('km', 'yd')">Km to Yard</button>
+                <button onclick="convert('km', 'mi')">Km to Mile</button>
+            </div>
+        </div>
+        <div class="result-container">
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="scriptlenght.js"></script>
+</body>
+</html>
